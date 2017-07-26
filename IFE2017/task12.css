@@ -1,0 +1,96 @@
+table{
+    width: 300px;
+}
+table thead th{
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+}
+table tbody tr:nth-of-type(even) {
+    background-color: #bbb;
+}
+table tbody tr:nth-child(-n+3) {
+    color: red;
+}
+input{
+    width:100px;
+    border: 2px solid #ddd;
+    margin: 20px;
+    transition: border-color,width  .5s ease;
+}
+input:focus {
+    width: 200px;
+    border-color: #6495ED;
+}
+
+/*task3*/
+.banner{
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+.banner-container{
+    width: 300%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    transition:.5s left;
+    font-size: 0;
+    word-spacing: 0;
+    letter-spacing: 0;
+}
+.banner-container li{
+    list-style: none;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+}
+.banner-container li:nth-child(1){
+    background-color: #00f;
+}
+.banner-container li:nth-child(2){
+    background-color: #0f0;
+}
+.banner-container li:nth-child(3){
+    background-color: #f00;
+}
+.banner-controller{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.banner-controller a{
+    text-decoration: none;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height:28px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #ccc;
+    text-align: center;
+    opacity: 0.5;
+}
+.banner-controller a:visited{
+    color: #ccc;
+}
+#img1:target~.banner-container{
+    left:0;
+}
+#img2:target~.banner-container{
+    left: -100%;
+}
+#img3:target~.banner-container{
+    left: -200%;
+}
+
+
+
+
+
+
+
+
+
+
+

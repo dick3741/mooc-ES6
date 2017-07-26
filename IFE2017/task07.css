@@ -1,0 +1,267 @@
+@charset "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, input, select, textarea, button {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 60px; }
+
+.logo {
+  display: inline-block;
+  height: 60px;
+  width: 10%;
+  margin: 10px 0 10px 5%; }
+  .logo .logoimg {
+    width: 30px;
+    height: 30px; }
+  .logo .logotext {
+    font: 24px 微软雅黑;
+    color: #4E3A4F;
+    font-weight: 500; }
+
+nav {
+  float: right;
+  margin-top: 10px;
+  margin-right: 5%; }
+
+nav a {
+  color: #999999;
+  margin-right: 30px;
+  text-decoration: none; }
+  nav a span {
+    font-size: 24px; }
+
+#section1 {
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("images/pic01.jpg");
+  background-size: 100% auto;
+  position: relative; }
+
+.experience {
+  height: 260px;
+  width: 450px;
+  position: absolute;
+  top: 300px;
+  left: 100px; }
+
+p {
+  color: #ffffff; }
+
+.title {
+  font-size: 50px; }
+
+.middle {
+  font-size: 20px; }
+
+.submit {
+  width: 360px;
+  height: 60px;
+  background-color: #E84F50;
+  border: none;
+  margin-top: 80px;
+  color: #ffffff;
+  font-size: 28px; }
+
+.section2 {
+  width: 100%;
+  height: 200px; }
+
+.icons {
+  display: inline-block;
+  width: 24%;
+  height: 200px; }
+
+.icon {
+  margin: 10% 50% 0 50%; }
+
+.des {
+  width: 180px;
+  height: 60px;
+  font-size: 16px;
+  margin: 10% 33%;
+  border-right: 2px solid #777577;
+  padding-right: 100px; }
+
+#section3 {
+  width: 100%;
+  height: 350px;
+  background-color: #eeecee; }
+
+.bookicon {
+  margin: 80px 46% 40px 46%; }
+
+.bookdes {
+  color: #a2a0a2;
+  font-size: 55px;
+  text-align: center; }
+
+#section4 {
+  background-image: url("images/pic02.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 450px; }
+
+.search1 {
+  display: inline-block;
+  margin: 80px 41% 10px;
+  font-size: 28px; }
+
+.hengxian {
+  text-align: center;
+  font-weight: bold; }
+
+.search2 {
+  text-align: center;
+  font-size: 18px; }
+
+.select {
+  width: 300px;
+  height: 40px;
+  margin: 40px; }
+
+.selectfirst {
+  margin-left: 220px; }
+
+.searchbtn {
+  background-color: #c04d49;
+  color: #ffffff;
+  border: none;
+  font-size: 18px; }
+
+#section5 {
+  width: 100%;
+  height: 550px;
+  background-color: #EEECEE; }
+
+.pic {
+  display: inline-block;
+  padding: 76px; }
+
+.picdiv {
+  margin: 0 auto;
+  width: 1500px;
+  padding-top: 70px; }
+
+.pictext {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.pictext2 {
+  font-size: 14px;
+  color: black;
+  text-align: center; }
+
+.pictextbig {
+  font-size: 30px;
+  color: black;
+  font-family: 微软雅黑; }
+
+#section6 {
+  height: 550px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative; }
+
+.timediv {
+  width: 1100px;
+  height: 550px;
+  background-image: url("images/pic07.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat; }
+
+.time {
+  width: 50%;
+  height: 325px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+  font-family: 微软雅黑; }
+  .time .time1 {
+    font-size: 65px;
+    margin-bottom: -30px; }
+  .time .time2 {
+    font-size: 160px; }
+  .time .time3 {
+    font-size: 30px; }
+
+.timemorediv {
+  margin-left: 1100px;
+  margin-top: -550px;
+  height: 550px;
+  width: 790px; }
+
+.more {
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px; }
+  .more p {
+    text-align: center;
+    font: 16px 微软雅黑;
+    line-height: 50px;
+    color: #646464; }
+  .more .p01 {
+    color: #E53C3C;
+    font: bold 30px 微软雅黑;
+    display: inline-block; }
+  .more .pnew {
+    font: bold 30px 微软雅黑;
+    margin-left: 170px;
+    display: inline-block; }
+  .more .more {
+    height: 30px;
+    width: 160px;
+    background-color: #ffffff;
+    color: #E53C3C;
+    border: 2px solid #E53C3C;
+    text-align: center;
+    padding-top: 8px; }
+
+#contact {
+  background-color: #343540;
+  width: 100%;
+  height: 400px; }
+  #contact p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px; }
+  #contact .email {
+    width: 400px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 715px;
+    margin-right: 0; }
+  #contact .submit2 {
+    margin-left: 0;
+    width: 100px;
+    height: 50px;
+    background-color: #E53C3C;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 微软雅黑; }
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: #302f3b; }
+  footer .footl {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 18px; }
+  footer .footr {
+    float: right;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 100px;
+    padding: 30px; }
